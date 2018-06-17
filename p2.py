@@ -1,8 +1,6 @@
 # ProjectPy0
 #Proyecto grupal de Python, ICC
-
-#fibonacci n' shit! xd
-
+# Definiendo función Fibonacci
 def SumaFibonacci(x):
     numeros=[0]
     for i in range(x):
