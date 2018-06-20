@@ -10,4 +10,4 @@ def SumaFibonacci(x):
             numeros.append(numeros[-1]+numeros[-2])
         print(numeros[i])
 
-print(SumaFibonacci(int(input())))
+print(SumaFibonacci(int(input('Ingrese número'))))
