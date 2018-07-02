@@ -22,7 +22,7 @@ def IfKill(x,y):
         if k==1:
             a=Select(x,y)
             x.remove(Select(x,y))
-            print(f"¡El/La jugador {a} ha sido eliminado/a!")
+            print(f"¡El/La jugador{a} ha sido eliminado/a!")
             print("Suerte para la próxima ;)")
             return "ELIMINADO/A"
         else:
@@ -36,7 +36,7 @@ def IfKill(x,y):
 def Main(x,y):
     while len(x)!=1:
         print(f"Se ha seleccionado al jugador {Select(x,y)}")
-        print("UYUYUY....!")
+        print("UYUYUYUY....!")
 
     return f"¡EL JUGADOR {x[0]} GANA!"
 
